@@ -31,7 +31,8 @@
               "src/assets",
               "src/theme.properties",
               "src/screenshots.jpg",
-              "src/page"
+              "src/page",
+              "src/setting.html"
             ],
             "styles": [
               "src/styles.scss",
