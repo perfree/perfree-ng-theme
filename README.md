@@ -15,6 +15,6 @@ npm run build
 ## 开发主题注意事项
 1. 要保证项目打包后根目录存在index.html和theme.properties文件
 2. 路由尽量和后台保持一致
-
+3. theme.properties中type属性配置为angular或者vue
 
 > 使用vue开发主题同理~
