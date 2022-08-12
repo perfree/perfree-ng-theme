@@ -1,0 +1,25 @@
+<p>index works!</p>
+<a routerLink= '/archive'>前往归档页</a>
+<div>
+
+    <div>
+        <h3>文章列表</h3>
+        <div *ngFor="let data of artilceList" class="article-box">
+            <a [routerLink]= "data.url">{{data.title}}</a>
+        </div>
+    </div>
+
+
+    <d-pagination
+    [size]="''"
+    [total]="pager.total"
+    [(pageSize)]="pager.pageSize"
+    [(pageIndex)]="pager.pageIndex"
+    [maxItems]="10"
+    [canViewTotal]="false"
+    [canJumpPage]="false"
+    [canChangePageSize]="false"
+    (pageIndexChange)="pageIndexChange($event)"
+    (pageSizeChange)="pageSizeChange($event)"
+  ></d-pagination>
+</div>

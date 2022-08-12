@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  LOCAL_STORAGE_NAME: 'perfree-ng-theme'
 };
