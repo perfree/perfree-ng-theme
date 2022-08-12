@@ -30,7 +30,8 @@
               "src/favicon.ico",
               "src/assets",
               "src/theme.properties",
-              "src/screenshots.jpg"
+              "src/screenshots.jpg",
+              "src/page"
             ],
             "styles": [
               "src/styles.scss",

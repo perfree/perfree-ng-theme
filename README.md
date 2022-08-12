@@ -16,5 +16,7 @@ npm run build
 1. 要保证项目打包后根目录存在index.html和theme.properties文件
 2. 路由尽量和后台保持一致
 3. theme.properties中type属性配置为angular或者vue
+4. 如前端项目定义后端没有的路由,要以/html/开头,否则会404
+5. 后台页面管理添加的自定义页面如友链页,需要在根目录创建page目录并在里边存放一个对应url的空html文件,如link.html
 
-> 使用vue开发主题同理~
+> 使用vue/react开发主题同理~

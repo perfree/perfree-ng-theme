@@ -18,6 +18,14 @@ const routes: Routes = [
         path: 'article/:id',
         loadChildren: () => import('./pages/article/article.module').then(m => m.ArticleModule)
       },
+      {
+        path: 'page/link',
+        loadChildren: () => import('./pages/link/link.module').then(m => m.LinkModule)
+      },
+      {
+        path: 'html/custom',
+        loadChildren: () => import('./pages/custom/custom.module').then(m => m.CustomModule)
+      },
     ]
   }
 ];
